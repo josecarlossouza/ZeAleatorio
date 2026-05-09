@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101820">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gerador Aleatório"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="50dp" />
+
+        <EditText
+            android:id="@+id/editInicio"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:hint="Número inicial"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BBBBBB"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:backgroundTint="#00E676"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp"/>
+
+        <EditText
+            android:id="@+id/editFim"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:hint="Número final"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BBBBBB"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:backgroundTint="#00E676"
+            android:padding="16dp"
+            android:layout_marginBottom="25dp"/>
+
+        <CheckBox
+            android:id="@+id/checkSemRepeticao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Números sem repetição"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginBottom="40dp"/>
+
+        <Button
+            android:id="@+id/buttonIniciar"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="INICIAR"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:backgroundTint="#00C853"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/buttonSair"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="SAIR"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:backgroundTint="#D50000"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+</ScrollView>
